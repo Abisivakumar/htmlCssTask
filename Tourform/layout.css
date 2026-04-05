@@ -1,0 +1,76 @@
+.image{
+    background-image: url(./image/Screenshot\ 2025-12-25\ 184057.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 930px;
+    margin-bottom: 70px;
+    width: 850px;
+    
+}
+h1{
+    color: white;
+    margin-bottom: 0;
+}
+h3{
+    color: red;
+    font-size: 23px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+body{
+    margin-left: 330px;
+    padding-top: 35px;
+}   
+.size{
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    width: 303px;
+    height: 20px;
+    border: 0;
+}
+#selectId{
+    width: 310px;
+    font-size: 15px;
+    color: gray;
+    height: 25px;
+    border: 0;
+    position: relative;
+    top: 5px;
+}  
+#dateId{
+    font-size: 15px;
+    height: 24px;
+    border: 0;
+    color: gray;
+    } 
+.box{
+    padding-bottom:10px 10px ; 
+    appearance: none;
+    border: 3px solid black ;
+    width: 20px;
+    height: 20px;
+}
+.text{
+   font-size: 20px;
+}
+#agreeId{
+    appearance: none;
+    border: 3px solid black;
+    border-radius:50% ;
+    width: 20px;
+    height: 20px;
+}
+button{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:red ;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    height: 33px;
+}
+span{
+    color: red;
+}

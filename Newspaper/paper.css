@@ -1,0 +1,116 @@
+h1{
+    font-size: 90px;
+    text-align: center;
+    margin: 0;
+}
+h3{
+    text-align: center;
+    font-size: 17px;
+    border: 2px solid black;
+    border-left: 0;
+    border-right: 0;
+    height: 15px;
+    padding: 15px;
+    width: 1490px
+}
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    padding: 15px 5px;
+}
+.one{
+    text-align: center;
+    font-style:oblique;
+    font-size: 50px;
+}
+.two{
+    font-size:50px;
+    text-align: center;
+  
+}
+.three{
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.four{
+    font-style:oblique;
+    font-size: 45px;
+    text-align: center;
+}
+.five{
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+}
+.author1{
+    font-size: 19px;
+    border:2px solid black ;
+    border-right: 0;
+    border-left: 0;
+    width: 147px;
+    height: 40px; 
+    margin-left: 60px;
+    padding-top: 15px;
+    padding-left:7px ;
+}
+#author2{
+    font-size: 45px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 4px;
+}
+#author3{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 7px;
+}
+#border1{
+    border-top: 2px solid black;
+    width: 120px;
+    margin-left: 90px;
+    
+}
+#border2{
+    border-bottom: 2px solid black;
+    width: 120px;
+    margin-left: 90px;
+}    
+#author5{
+    font-size: 16px;
+    border:2px solid black ;
+    border-right: 0;
+    border-left: 0;
+    width: 150px;
+    height: 40px; 
+    margin-left: 65px;
+    padding-top: 15px;
+}
+p{
+    font-size: 20px;
+    padding: 15px;
+}
+#line2{
+    border-left: 2px solid black;
+    height: 470px;
+}
+#line1{
+    border-right: 2px solid black;
+    height: 455px;
+}
+#line3{
+    border-left: 2px solid black;
+    height: 430px;
+}
+#line4{
+    border-left: 2px solid black;
+    height: 470px;
+}

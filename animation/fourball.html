@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .circle{
+            width: 80px;
+            height: 80px;
+            margin-left: 200px;
+            margin-top: 80px;
+            border-radius: 50%;
+            background-color: brown;
+            animation-name: ball;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-direction: alternate-reverse;
+        }
+        .circle2{
+            width: 80px;
+            height: 80px;
+            margin-left: 200px;
+            margin-top: 80px;
+            border-radius: 50%;
+            background-color: rgb(104, 165, 42);
+            animation-name: ball2;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-direction:alternate;
+        }
+        .circle3{
+            width: 80px;
+            height: 80px;
+            margin-left: 200px;
+            margin-top: 80px;
+            border-radius: 50%;
+            background-color: rgb(165, 42, 132);
+            animation-name: ball;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-direction: alternate-reverse;
+        }
+        .circle4{
+            width: 80px;
+            height: 80px;
+            margin-left: 200px;
+            margin-top: 80px;
+            border-radius: 50%;
+            background-color: rgb(54, 42, 165);
+            animation-name: ball2;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-direction:alternate;
+        }
+        .ball{
+            display: flex;
+            margin-left: 50px;
+        }
+        @keyframes ball{
+            from{
+                transform: translatey(0);
+            }
+            to{
+                transform: translatey(400px);
+            }
+        }
+        @keyframes ball2{
+            from{
+                transform: translatey(0);
+            }
+            to{
+                transform: translatey(400px);
+            }
+        }
+
+        </style>
+</head>
+<body>
+    <h1>CSS Animation Bounsing Ball</h1>
+    <div class="ball">
+    <div class="circle"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <div class="circle4"></div>
+    </div>
+</body>
+</html>
+</body>
+</html>
